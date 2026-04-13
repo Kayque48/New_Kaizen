@@ -1,64 +1,37 @@
 {
   "main": {
-    "id": "2e60e324daa0acfe",
+    "id": "7603eab56fed4cf6",
     "type": "split",
     "children": [
       {
-        "id": "a51b31be96e5d979",
+        "id": "27e2794c3c475b9a",
         "type": "tabs",
         "children": [
           {
-            "id": "3b8ef7d299357440",
+            "id": "22699ce4321d07b5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "06_Pesquisa_Empresa/Stakeholders.md",
-=======
-                "file": "06_Pesquisa_Empresa/Processos_Casos_Uso.md",
->>>>>>> 5896af843f42957ff2fd46ba630cbe42b7c2216c
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Stakeholders"
-=======
-              "title": "Processos_Casos_Uso"
-            }
-          },
-          {
-            "id": "22b8c40f07d1d9dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06_Pesquisa_Empresa/Projetos_Atuais_Petrobras.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Projetos_Atuais_Petrobras"
->>>>>>> 5896af843f42957ff2fd46ba630cbe42b7c2216c
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "13384292cbbb6e26",
+    "id": "14789be644a263c6",
     "type": "split",
     "children": [
       {
-        "id": "3b05fc4fb060e0e5",
+        "id": "52ffc303c5ce5675",
         "type": "tabs",
         "children": [
           {
-            "id": "0663a7b1bc85c31e",
+            "id": "6dac0709645d840c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,7 +44,7 @@
             }
           },
           {
-            "id": "2258a198dfa878ab",
+            "id": "0280d43024e20cad",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -84,17 +57,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
-            "id": "72c3aaa061f2f7ff",
+            "id": "65ced555bff0db5f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           }
         ]
@@ -104,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "1cc2156a0a19afa0",
+    "id": "c20d74e7abe937f0",
     "type": "split",
     "children": [
       {
-        "id": "e3581f4842352d7f",
+        "id": "aa8d9e582b3db3f0",
         "type": "tabs",
         "children": [
           {
-            "id": "c088919cdbb2fee2",
+            "id": "7d2b3baae485c0de",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -126,11 +99,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos"
             }
           },
           {
-            "id": "d25a1586a21151ef",
+            "id": "1ebafc00fb851aea",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -139,11 +112,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Links de saída"
             }
           },
           {
-            "id": "2def2b826d199048",
+            "id": "9b3078cc6d115be1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -154,11 +127,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "d1a9c178c3fd4a13",
+            "id": "9df0da6c38543ffe",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -168,11 +141,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Todas as propriedades"
             }
           },
           {
-            "id": "922ddea85a6be655",
+            "id": "586e05d1a0190036",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -182,11 +155,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Sumário"
             }
           },
           {
-            "id": "fd3e0000cbbc68de",
+            "id": "bd7984a27a2b8c60",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -200,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,53 +187,8 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0663a7b1bc85c31e",
+  "active": "22699ce4321d07b5",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "06_Pesquisa_Empresa/Benchmarking.md",
-    "06_Pesquisa_Empresa/Empresa_Alvo.md",
-    "06_Pesquisa_Empresa/Processos_Casos_Uso.md",
-    "06_Pesquisa_Empresa/Stakeholders.md",
-    "00_Escuderia/Escuderia_NewKaizen.md",
-    "🏎️_INÍCIO_RÁPIDO.md",
-=======
-    "06_Pesquisa_Empresa/Processos_Casos_Uso.md",
-    "06_Pesquisa_Empresa/Projetos_Atuais_Petrobras.md",
-    "06_Pesquisa_Empresa/Empresa_Alvo.md",
-    "06_Pesquisa_Empresa/Benchmarking.md",
-    "05_Pitch/Script.md",
-    "00_Escuderia/Escuderia_NewKaizen.md",
-    "01_Desafio/Desafio_Completo.md",
-    "🏎️_INÍCIO_RÁPIDO.md",
-    "06_Pesquisa_Empresa/Stakeholders.md",
->>>>>>> 5896af843f42957ff2fd46ba630cbe42b7c2216c
-    "06_Pesquisa_Empresa",
-    "fala glr.md",
-    "07_Cronograma & Milestones/Timeline_Project.md",
-    "08_Resultados & Learnings/Resultados_Aprendizados.md",
-    "06_Equipe & Roles/Estrutura_Equipe.md",
-    "03_Protótipo/Especificações_Técnicas.md",
-    "05_Pesquisa & Benchmarking/Pesquisa_Mercado.md",
-    "03_Protótipo/Arquitetura.md",
-    "02_Regras de Negócio/Regras_de_Negócio.md",
-    "01_Visão & Estratégia/Stakeholders.md",
-    "01_Visão & Estratégia/Visão_Estratégica.md",
-    "07_Cronograma & Milestones",
-    "08_Resultados & Learnings",
-    "06_Equipe & Roles",
-    "05_Pesquisa & Benchmarking",
-    "03_Protótipo",
-    "START_HERE.md",
-    "02_Regras de Negócio",
-    "01_Visão & Estratégia",
-    "_ÍNDICE_GERAL.md",
-<<<<<<< HEAD
-    "01_Desafio/Desafio_Completo.md",
-=======
->>>>>>> 5896af843f42957ff2fd46ba630cbe42b7c2216c
-    "08_Grand_Prix_2026",
-    "07_Recursos",
-    "04_Recursos/README.md",
-    "README.md"
+    "links maneiros sobre a Petrobras e Relacionados.md"
   ]
 }
