@@ -2,7 +2,7 @@
 
 ## 📊 Comparação de Empresas
 
-### Empresa 1: [Nome]
+### Empresa 1: [Petrobrás]
 **Setor**: 
 
 **Foco em Inovação**: 
@@ -11,7 +11,7 @@
 
 ---
 
-### Empresa 2: [Nome]
+### Empresa 2: [Vale]
 **Setor**: 
 
 **Foco em Inovação**: 

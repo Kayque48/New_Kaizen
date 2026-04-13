@@ -1,64 +1,41 @@
 {
   "main": {
-    "id": "2e60e324daa0acfe",
+    "id": "a3ec4047defcac16",
     "type": "split",
     "children": [
       {
-        "id": "a51b31be96e5d979",
+        "id": "b4c037c3a3b4ef0e",
         "type": "tabs",
         "children": [
           {
-            "id": "3b8ef7d299357440",
+            "id": "944d5c72079ecc8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "06_Pesquisa_Empresa/Stakeholders.md",
-=======
-                "file": "06_Pesquisa_Empresa/Processos_Casos_Uso.md",
->>>>>>> 5896af843f42957ff2fd46ba630cbe42b7c2216c
+                "file": "TESTE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Stakeholders"
-=======
-              "title": "Processos_Casos_Uso"
-            }
-          },
-          {
-            "id": "22b8c40f07d1d9dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06_Pesquisa_Empresa/Projetos_Atuais_Petrobras.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Projetos_Atuais_Petrobras"
->>>>>>> 5896af843f42957ff2fd46ba630cbe42b7c2216c
+              "title": "TESTE"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "13384292cbbb6e26",
+    "id": "dc0d24093a6b5501",
     "type": "split",
     "children": [
       {
-        "id": "3b05fc4fb060e0e5",
+        "id": "e5c70e9c1a2d3d5e",
         "type": "tabs",
         "children": [
           {
-            "id": "0663a7b1bc85c31e",
+            "id": "8514b77c13599e5c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,7 +48,7 @@
             }
           },
           {
-            "id": "2258a198dfa878ab",
+            "id": "dc54402685edd339",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -84,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
-            "id": "72c3aaa061f2f7ff",
+            "id": "7b813a15db62761c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           }
         ]
@@ -104,19 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "1cc2156a0a19afa0",
+    "id": "a2b11027d3499ba7",
     "type": "split",
     "children": [
       {
-        "id": "e3581f4842352d7f",
+        "id": "569fbb01dcc3c5dc",
         "type": "tabs",
         "children": [
           {
-            "id": "c088919cdbb2fee2",
+            "id": "939749c4d16ba591",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TESTE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para TESTE"
             }
           },
           {
-            "id": "d25a1586a21151ef",
+            "id": "ce50b2641dacb31d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TESTE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Links de saída para TESTE"
             }
           },
           {
-            "id": "2def2b826d199048",
+            "id": "0b9391aa94e32952",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -154,11 +133,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "d1a9c178c3fd4a13",
+            "id": "e5dcadb01a334d22",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -168,25 +147,26 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Todas as propriedades"
             }
           },
           {
-            "id": "922ddea85a6be655",
+            "id": "b297a4ba86443fda",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "TESTE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Sumário de TESTE"
             }
           },
           {
-            "id": "fd3e0000cbbc68de",
+            "id": "25d8c875ebdcd9fd",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -200,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,53 +194,8 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0663a7b1bc85c31e",
+  "active": "944d5c72079ecc8f",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "06_Pesquisa_Empresa/Benchmarking.md",
-    "06_Pesquisa_Empresa/Empresa_Alvo.md",
-    "06_Pesquisa_Empresa/Processos_Casos_Uso.md",
-    "06_Pesquisa_Empresa/Stakeholders.md",
-    "00_Escuderia/Escuderia_NewKaizen.md",
-    "🏎️_INÍCIO_RÁPIDO.md",
-=======
-    "06_Pesquisa_Empresa/Processos_Casos_Uso.md",
-    "06_Pesquisa_Empresa/Projetos_Atuais_Petrobras.md",
-    "06_Pesquisa_Empresa/Empresa_Alvo.md",
-    "06_Pesquisa_Empresa/Benchmarking.md",
-    "05_Pitch/Script.md",
-    "00_Escuderia/Escuderia_NewKaizen.md",
-    "01_Desafio/Desafio_Completo.md",
-    "🏎️_INÍCIO_RÁPIDO.md",
-    "06_Pesquisa_Empresa/Stakeholders.md",
->>>>>>> 5896af843f42957ff2fd46ba630cbe42b7c2216c
-    "06_Pesquisa_Empresa",
-    "fala glr.md",
-    "07_Cronograma & Milestones/Timeline_Project.md",
-    "08_Resultados & Learnings/Resultados_Aprendizados.md",
-    "06_Equipe & Roles/Estrutura_Equipe.md",
-    "03_Protótipo/Especificações_Técnicas.md",
-    "05_Pesquisa & Benchmarking/Pesquisa_Mercado.md",
-    "03_Protótipo/Arquitetura.md",
-    "02_Regras de Negócio/Regras_de_Negócio.md",
-    "01_Visão & Estratégia/Stakeholders.md",
-    "01_Visão & Estratégia/Visão_Estratégica.md",
-    "07_Cronograma & Milestones",
-    "08_Resultados & Learnings",
-    "06_Equipe & Roles",
-    "05_Pesquisa & Benchmarking",
-    "03_Protótipo",
-    "START_HERE.md",
-    "02_Regras de Negócio",
-    "01_Visão & Estratégia",
-    "_ÍNDICE_GERAL.md",
-<<<<<<< HEAD
-    "01_Desafio/Desafio_Completo.md",
-=======
->>>>>>> 5896af843f42957ff2fd46ba630cbe42b7c2216c
-    "08_Grand_Prix_2026",
-    "07_Recursos",
-    "04_Recursos/README.md",
-    "README.md"
+    "TESTE.md"
   ]
 }
