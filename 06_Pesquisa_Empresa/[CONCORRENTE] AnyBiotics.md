@@ -15,7 +15,7 @@ A empresa é especializada no desenvolvimento de **robôs quadrúpedes autônomo
 
 ---
 
-## 🧪 Como a ANYbotics Desenvolve seus Robôs
+## 🧪 Como a ANYBotics Desenvolve seus Robôs
 
 ### Origem Acadêmica
 
