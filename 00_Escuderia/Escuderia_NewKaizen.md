@@ -1,12 +1,14 @@
 # 👥 Escuderia NewKaizen
 
+![[newkaizen_logo.jpeg|325]]
+
 ## 🎯 Informações Básicas
 
-| | |
-|---|---|
-| **Nome** | NewKaizen |
-| **Desafio** | Robótica Colaborativa e Automação de Processos |
-| **Objetivo** | 🥇 1º Lugar |
+|              |                                                |
+| ------------ | ---------------------------------------------- |
+| **Nome**     | NewKaizen                                      |
+| **Desafio**  | Robótica Colaborativa e Automação de Processos |
+| **Objetivo** | 🥇 1º Lugar                                    |
 
 ---
 
@@ -25,7 +27,6 @@
   - Técnico em Desenvolvimento de Sistemas (SENAI)
 
 ### Joel João de Araújo Neto
-- **Papel**: Análise e Viabilidade
 - **Formação**:
   - Técnico em Desenvolvimento de Sistemas (SENAI)
   - Iniciação Científica - Software de Tour Virtual (Unicamp)
@@ -33,14 +34,12 @@
   - (1º) Resolve Aí (Mahle)
 
 ### Kayque Costa da Silva
-- **Papel**:
 - **Formação**:
   - Técnico em Desenvolvimento de Sistemas (SENAI)
   - Técnico em Mecânica (COTIL)
   - TADS (Einstein)
 
 ### Victor Hugo Camargo
-- **Papel**: 
 - **Formação**:
   - Técnico em Eletroeletrônica (Trajano)
   - Iniciação Científica - Construção Civil (Unicamp)
