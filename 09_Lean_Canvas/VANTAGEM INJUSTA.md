@@ -1,0 +1,5 @@
+- Conhecimento tecnico especifico do processo e da operacao Lhoist.
+- Acesso ao contexto real da planta e aos decisores-chave.
+- Projeto desenhado para normas brasileiras desde o inicio.
+- Caso financeiro claro para seguranca + produtividade.
+- Possibilidade de IP e replicacao em multiplas unidades.

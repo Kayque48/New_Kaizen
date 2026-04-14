@@ -139,39 +139,10 @@ Vista de cima do canal com a lança introduzida. O interior está escuro e com b
 
 ---
 
-## 🖼️ Imagem 08 — Operação com Exposição Direta ao Forno
+## 🖼️ Imagem 08 — Processo de Fechamento I
 ![[08.png|300]]
-**O que mostra:**
-Operador em posição de trabalho ativo, curvado sobre o canal durante a limpeza com jato. A estrutura enferrujada ao redor do canal evidencia o ambiente de alta temperatura acumulada. Legenda: *"Como é uma atividade com exposição a altas temperaturas"*.
-
-**Riscos Identificados:**
-
-| Risco | Classificação |
-|-------|--------------|
-| Exposição prolongada à radiação térmica do forno | NR-15 — insalubridade grau máximo |
-| Ambiente com temperatura ambiente elevada (além do canal) | Estresse térmico sistêmico |
-| Vapor d'água do jato cria névoa quente ao redor do operador | Risco de queimadura por vapor |
-| Ferrugem e desgaste estrutural ao redor — ambiente hostil | NR-18 |
-
----
-
-## 🖼️ Imagem 09 — Jato em Operação: Partículas e Vapor
+## 🖼️ Imagem 09 — Processo de Fechamento II
 ![[09.png|300]]
-**O que mostra:**
-Operador em ação com o jato de água pressurizado ativo. Visível a **névoa de partículas e vapor** se espalhando ao redor do canal — mistura de cal, água evaporada e material particulado. Legenda: *"de uma atividade operacionalmente segura e eficiente em termos de processos"* — ironicamente, a imagem mostra o oposto.
-
-**Riscos Identificados:**
-
-| Risco | Classificação |
-|-------|--------------|
-| Inalação de particulado de cal (CaO) | Risco químico grave — NR-9 / NR-15 |
-| Névoa de vapor quente misturada com particulado | Queimadura das vias respiratórias |
-| Respingos de material quente no operador | Queimadura cutânea |
-| Visibilidade reduzida durante a operação ativa | Desorientação / acidente |
-
-> [!danger] Risco Químico
-> **CaO (cal viva)** em contato com mucosas (olhos, vias respiratórias) causa queimadura química.
-> A névoa visível nesta imagem é **material ativo** sendo disperso ao redor do operador.
 
 ---
 

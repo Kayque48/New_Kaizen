@@ -30,8 +30,8 @@
 
 ## ✅ Próximas Ações
 
-- [ ] Ler o desafio completo
-- [ ] Pesquisar sobre a empresa
-- [ ] Brainstorm inicial
+- [x] Ler o desafio completo
+- [x] Pesquisar sobre a empresa
+- [x] Brainstorm inicial
 - [ ] Definir conceito principal
 - [ ] Começar prototipagem

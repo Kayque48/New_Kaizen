@@ -6,18 +6,18 @@
 
 ## 🏢 Sobre a Lhoist / Mineração Belocal
 
-|Campo|Dado|
-|---|---|
-|Razão Social|Mineração Belocal Ltda|
-|Grupo|Lhoist Group (fundado em 1889, Bélgica)|
-|CNPJ (Unidade Matozinhos)|06.730.693/0004-05|
-|Endereço|Rodovia MG 424 – Km 53, Matozinhos – MG, 35.720-000|
-|CNAE|C-2392-3/00 – Fabricação de cal e gesso|
-|Capacidade produtiva (Brasil)|2,5 milhões t/ano de cal + 3 milhões t/ano de calcário|
-|Presença global|+120 fábricas em +25 países, mais de 6.400 funcionários|
-|Chegada ao Brasil|2003 (aquisição da divisão de cal industrial da Votorantim)|
-|Investimento recente em MG|+R$ 470 milhões nos últimos 5 anos|
-|Nova planta em Matozinhos|R$ 75 milhões (planta de moagem de combustível, conclusão prevista nov/2025)|
+| Campo                         | Dado                                                                         |
+| ----------------------------- | ---------------------------------------------------------------------------- |
+| Razão Social                  | Mineração Belocal Ltda                                                       |
+| Grupo                         | Lhoist Group (fundado em 1889, Bélgica)                                      |
+| CNPJ (Unidade Matozinhos)     | 06.730.693/0004-05                                                           |
+| Endereço                      | Rodovia MG 424 – Km 53, Matozinhos – MG, 35.720-000                          |
+| CNAE                          | C-2392-3/00 – Fabricação de cal e gesso                                      |
+| Capacidade produtiva (Brasil) | 2,5 milhões t/ano de cal + 3 milhões t/ano de calcário                       |
+| Presença global               | +120 fábricas em +25 países, mais de 6.400 funcionários                      |
+| Chegada ao Brasil             | 2003 (aquisição da divisão de cal industrial da Votorantim)                  |
+| Investimento recente em MG    | +R$ 470 milhões nos últimos 5 anos                                           |
+| Nova planta em Matozinhos     | R$ 75 milhões (planta de moagem de combustível, conclusão prevista nov/2025) |
 
 ---
 
