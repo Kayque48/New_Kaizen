@@ -17,6 +17,16 @@ Em vez de impactar a rocha já fundida, a buzina sônica emite ondas sonoras de 
 * **Frequência de Atuação:** Acionamentos curtos e automatizados (ex: 10 segundos a cada 10 minutos).
 * **Mecanismo:** A onda sonora causa uma flutuação rápida na pressão do ar dentro do canal. Essa vibração constante "fluidiza" o pó fino recém-depositado, fazendo com que ele seja levado pelo próprio fluxo de gases do forno antes de derreter e grudar na parede.
 
+## ✏️📄 Rascunho Físico
+
+![[rascunho_buzina_físico.jpeg]]
+
+
+## ✏️💻 Rascunho Digital
+
+![[rascunho_buzina_digital.png]]
+
+
 ## 🎯 Resolução Direta das Dores do Desafio
 
 | Dor do Desafio (Matozinhos) | Como a Buzina Sônica Resolve |

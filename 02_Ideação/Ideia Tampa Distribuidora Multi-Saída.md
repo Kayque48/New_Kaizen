@@ -1,4 +1,4 @@
-# 💡 Ideia — Tampa Distribuidora Multi-Saída + Drone Acoplador
+2# 💡 Ideia — Tampa Distribuidora Multi-Saída + Drone Acoplador
 
 > [!info] Desafio **GP SENAI 2026 · Lhoist** — Automação da limpeza de canais nos fornos verticais da unidade de Matozinhos, MG
 > Status: **Rascunho**
