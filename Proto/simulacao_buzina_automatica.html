@@ -1,0 +1,33 @@
+
+<link rel="stylesheet" href="simulacao_buzina_automatica.css">
+
+<div class="sw">
+  <h2 style="position:absolute;left:-9999px">Simulação automática forno Maerz com buzinas sônicas</h2>
+  <div class="ctrl">
+    <button class="btn" id="btnStart">Iniciar ciclo automático</button>
+    <button class="btn" id="btnR">Reiniciar</button>
+    <span class="bdg boff" id="bdg">Aguardando início</span>
+  </div>
+
+  <div class="pbar-wrap">
+    <div class="pbar-label" id="pbarLabel">—</div>
+    <div class="pbar-bg"><div class="pbar-fill" id="pbarFill" style="width:0%;background:#1D9E75"></div></div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><p class="sl">Fase atual</p><p class="sv" id="sFase" style="font-size:12px">—</p></div>
+    <div class="stat"><p class="sl">Partículas</p><p class="sv" id="sP">0</p></div>
+    <div class="stat"><p class="sl">Incrustação</p><p class="sv" id="sC">0%</p></div>
+    <div class="stat"><p class="sl">Canal</p><p class="sv" id="sS" style="font-size:12px;padding-top:2px">Limpo</p></div>
+  </div>
+
+  <canvas id="cv" style="display:block;width:100%;border-radius:8px;border:1px solid #ddd;background:#fff"></canvas>
+  <div class="leg">
+    <div class="li"><div class="ld" style="background:#e8845a"></div>Pó de cal</div>
+    <div class="li"><div class="ld" style="background:#993C1D"></div>Incrustação</div>
+    <div class="li"><div class="ld" style="background:#5DCAA5"></div>Onda acústica</div>
+    <div class="li"><div class="ld" style="background:#888"></div>Refratário</div>
+  </div>
+</div>
+
+<script src="simulacao_buzina_automatica.js"></script>
