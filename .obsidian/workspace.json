@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Ideação/Tampa Distribuidora Multi-Saída.md",
+                "file": "04_Prototipagem/Desenvolvimento.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tampa Distribuidora Multi-Saída"
+              "title": "Desenvolvimento"
             }
           }
         ],
@@ -209,10 +209,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e4e61e08a5b7bd7",
+  "active": "6dac0709645d840c",
   "lastOpenFiles": [
+    "02_Ideação/New_Kaizen_Ultrassom_Limpeza.md",
+    "02_Ideação/Não confirmado 956150.crdownload",
+    "00_Escuderia/Escuderia_NewKaizen.md",
+    "01_Desafio/Desafio_Lhoist.md",
+    "02_Ideação/Drone de Limpeza para Canais dos Fornos Maerz 4 e 5 (Lhoist Matozinhos).md",
     "02_Ideação/Ideia da mangueira área.md",
     "02_Ideação/Tampa Distribuidora Multi-Saída.md",
+    "RPD_Consolidado.md",
+    "09_Lean_Canvas/VANTAGEM INJUSTA.md",
+    "09_Lean_Canvas/SOLUÇÃO.md",
+    "09_Lean_Canvas/SEGMENTOS DE CLIENTES.md",
+    "09_Lean_Canvas/PROPOSTA DE VALOR ÚNICO.md",
+    "09_Lean_Canvas/PROBLEMA.md",
+    "09_Lean_Canvas/MÉTRICAS CHAVE.md",
+    "09_Lean_Canvas/LHOIST-SUMARIO-VISUAL.md",
+    "09_Lean_Canvas/LHOIST-Lean-Canvas.canvas",
+    "09_Lean_Canvas/FLUXOS DE RECEITA.md",
+    "09_Lean_Canvas/ESTRUTURA DE CUSTOS.md",
+    "09_Lean_Canvas/CANAIS.md",
+    "09_Lean_Canvas",
     "02_Ideação/Ideia 1.md",
     "Lhoist.md",
     "06_Pesquisa_Empresa/química_dos_fornos.md",
@@ -234,28 +252,11 @@
     "07_Arquivos_Lives/metodologia/Duplo Diamante.md",
     "07_Arquivos_Lives/metodologia/Design Thinking.md",
     "07_Arquivos_Lives/lean-canvas/Lean Canvas — Visão Geral.md",
-    "07_Arquivos_Lives/lean-canvas/Lean Canvas — 9 Blocos.md",
     "07_Arquivos_Lives/referencias",
     "07_Arquivos_Lives/metodologia",
     "07_Arquivos_Lives/lean-canvas",
-    "07_Arquivos_Lives/000 - Índice do Grand Prix SENAI.md",
     "07_Arquivos_Lives",
-    "06_Pesquisa_Empresa/02_LHOIST/gitkeep.md",
-    "06_Pesquisa_Empresa/02_LHOIST/analise_visual.md",
     "06_Pesquisa_Empresa/02_LHOIST",
-    "06_Pesquisa_Empresa/01_PETROBRAS/README.md",
-    "06_Pesquisa_Empresa/01_PETROBRAS/05_Recursos/Links_Referencias.md",
-    "06_Pesquisa_Empresa/01_PETROBRAS/05_Recursos",
-    "06_Pesquisa_Empresa/01_PETROBRAS/04_Competidores/README.md",
-    "06_Pesquisa_Empresa/01_PETROBRAS/04_Competidores/Benchmarking_Mercado.md",
-    "06_Pesquisa_Empresa/01_PETROBRAS/04_Competidores/ANYbotics_Analise_Profunda.md",
-    "06_Pesquisa_Empresa/01_PETROBRAS/04_Competidores",
-    "06_Pesquisa_Empresa/01_PETROBRAS/03_Operacoes_Processos/Stakeholders_Decisores.md",
-    "06_Pesquisa_Empresa/01_PETROBRAS/03_Operacoes_Processos/README.md",
-    "06_Pesquisa_Empresa/01_PETROBRAS/03_Operacoes_Processos/Processos_Principais.md",
-    "06_Pesquisa_Empresa/01_PETROBRAS/03_Operacoes_Processos/Casos_Uso.md",
-    "06_Pesquisa_Empresa/01_PETROBRAS/03_Operacoes_Processos",
-    "06_Pesquisa_Empresa/01_PETROBRAS/02_Inovacao_Tecnologia/Transformacao_Digital.md",
-    "06_Pesquisa_Empresa/01_PETROBRAS/02_Inovacao_Tecnologia/Robotica_Operacoes.md"
+    "06_Pesquisa_Empresa/01_PETROBRAS/05_Recursos"
   ]
 }
