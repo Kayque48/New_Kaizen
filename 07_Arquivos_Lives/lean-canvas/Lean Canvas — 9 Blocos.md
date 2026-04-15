@@ -61,8 +61,6 @@
 
 **Exemplo histórico (Easy Taxi):** MVP era um formulário no WhatsApp + telefonema pro taxista. Funcionava? Sim. Era tecnológico? Não. Entregava valor? ✅
 
-> 🇯🇵 **最小限の製品** (*saishōgen no seihin*) — produto mínimo viável (MVP)
-
 ---
 
 ## Bloco 3 — Métricas-Chave

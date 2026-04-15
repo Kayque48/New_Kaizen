@@ -37,16 +37,16 @@ Com a mangueira acoplada, o jato é acionado. Após a limpeza, o drone **desacop
 
 ## ✅ Alinhamento com os Requisitos
 
-| Requisito | Como é atendido |
-|---|---|
-| Cobertura angular de 120° | Distribuição pelos tubos internos da tampa |
-| Profundidade de 1–5 m | Tubos angulados e dimensionados para cada faixa |
-| Cabeçote ≤ 300 mm | Tampa fixada no próprio poken in door |
-| Eliminação da sobrecarga física | Operador não manipula lança nem marreta |
-| Operação remota | Drone controlado à distância |
-| Portabilidade | Drone portátil; tampa é componente fixo leve |
-| Replicabilidade | Tampa padronizada instalável em todos os fornos verticais |
-| Sem contato direto com refratário | Ângulos dos tubos calibrados para evitar impacto direto |
+| Requisito                         | Como é atendido                                           |
+| --------------------------------- | --------------------------------------------------------- |
+| Cobertura angular de 120°         | Distribuição pelos tubos internos da tampa                |
+| Profundidade de 1–5 m             | Tubos angulados e dimensionados para cada faixa           |
+| Cabeçote ≤ 300 mm                 | Tampa fixada no próprio poken in door                     |
+| Eliminação da sobrecarga física   | Operador não manipula lança nem marreta                   |
+| Operação remota                   | Drone controlado à distância                              |
+| Portabilidade                     | Drone portátil; tampa é componente fixo leve              |
+| Replicabilidade                   | Tampa padronizada instalável em todos os fornos verticais |
+| Sem contato direto com refratário | Ângulos dos tubos calibrados para evitar impacto direto   |
 
 ---
 
