@@ -7,25 +7,12 @@ tags:
   - limpeza_acustica
 ---
 
+---
+
 # 📢 Proposta de Solução: Limpeza Acústica (Buzinas Sônicas)
 
 > [!abstract] Resumo da Proposta
 > Substituir o método atual de **limpeza corretiva manual** (uso de marreta, lança e água a 1100°C) por um sistema de **limpeza preventiva automatizada** utilizando ondas sonoras de baixa frequência (Buzinas Sônicas / *Sonic Soot Blowers*). O objetivo é impedir a incrustação dos finos de cal antes que eles se fundam ao refratário.
-
-## ⚙️ Como Funciona a Tecnologia
-Em vez de impactar a rocha já fundida, a buzina sônica emite ondas sonoras de baixa frequência (geralmente entre 60 e 250 Hz) e alta energia (até 150 dB), geradas por ar comprimido ou nitrogênio. 
-* **Frequência de Atuação:** Acionamentos curtos e automatizados (ex: 10 segundos a cada 10 minutos).
-* **Mecanismo:** A onda sonora causa uma flutuação rápida na pressão do ar dentro do canal. Essa vibração constante "fluidiza" o pó fino recém-depositado, fazendo com que ele seja levado pelo próprio fluxo de gases do forno antes de derreter e grudar na parede.
-
-## ✏️📄 Rascunho Físico
-
-![[rascunho_buzina_físico.jpeg]]
-
-
-## ✏️💻 Rascunho Digital
-
-![[rascunho_buzina_digital.png]]
-
 
 ## 🎯 Resolução Direta das Dores do Desafio
 
@@ -37,112 +24,168 @@ Em vez de impactar a rocha já fundida, a buzina sônica emite ondas sonoras de 
 | **Marreta (5kg) e Tampa (20kg)** | **Eliminado.** A buzina é instalada de forma *fixa* (ou semi-fixa) na própria porta (*poken in door*). Não é mais necessário abrir a tampa duas vezes por semana. |
 
 ## 📈 Alinhamento Estratégico com o Grupo Lhoist
+
 * **Pilar *Go for Zero* (Segurança):** Elimina a exposição humana ao risco de choque térmico, ergonomia extrema e trabalho a quente.
 * **Sustentabilidade e Eficiência:** Mantém os canais de fluxo de gás permanentemente limpos, otimizando a queima, economizando combustível e reduzindo emissões de $CO_2$.
 * **Propriedade Intelectual (PI):** A aplicação de limpeza acústica em fornos de fluxo paralelo regenerativo, operando a 1100°C para finos de cal, tem alto potencial de patente de processo.
 
-## 🛠️ Desafios Técnicos a Mapear (Próximos Passos)
-- [ ] **Dimensionamento do Ar Comprimido:** Verificar se a rede de ar comprimido da unidade de Matozinhos suporta o consumo das buzinas.
-- [ ] **Material da Corneta:** A parte da buzina que entra em contato com a temperatura interna precisa ser fundida em ligas especiais (como Inconel ou aços refratários) para suportar os 1100°C contínuos.
-- [ ] **Poluição Sonora Ambiental:** Como as buzinas são barulhentas (embora o forno seja isolado), será necessário calcular o impacto acústico externo e prever isolamento (abafadores) do lado de fora da carcaça do forno.
-- [ ] **Replicabilidade:** Criar um design de flange universal que permita acoplar a buzina tanto nas 36 portas do Forno 4 quanto nas 48 portas do Forno 5.
+---
 
-## 1. Introdução ao Problema
+## ⚙️ Como Funciona a Tecnologia
 
-Com **18 buzinas sonoras** operando **simultaneamente** a ~200 Hz e níveis de 120-160 dB cada, o sistema gera uma onda acústica de alta intensidade e baixa frequência.
+Em vez de impactar a rocha já fundida, a buzina sônica emite ondas sonoras de baixa frequência e alta energia (até 150 dB), geradas por ar comprimido ou nitrogênio.
+* **Frequência de Atuação:** Acionamentos curtos e automatizados (ex: 10 segundos a cada 10 minutos).
+* **Mecanismo:** A onda sonora causa uma flutuação rápida na pressão do ar dentro do canal. Essa vibração constante "fluidiza" o pó fino recém-depositado, fazendo com que ele seja levado pelo próprio fluxo de gases do forno antes de derreter e grudar na parede.
 
-Diferente de vibrações mecânicas comuns (ex.: motores), a energia acústica se propaga como **ondas de pressão** que excitam diretamente as estruturas. Em fornos Maerz PFR (canais de combustão, refratário, dutos de crossover e suportes metálicos), isso cria **cargas cíclicas repetidas** que podem levar a **fadiga acústica** — um mecanismo de falha bem documentado em caldeiras, silos e fornos industriais.
+### ✏️📄 Rascunho Físico
+![[rascunho_buzina_físico.jpeg]]
+
+### ✏️💻 Rascunho Digital
+![[rascunho_buzina_digital.png]]
+
+---
+
+## 🎯 Especificação Técnica da Buzina — Forno Maerz PFR
+
+> [!warning] Janela de Eficácia
+> A buzina sônica atua como **prevenção**, não como remoção de crosta já sinterizada. O K₂O entra em fase líquida a **~700–750°C** — abaixo disso, o pó ainda é particulado solto e a buzina é eficaz. Acima dessa temperatura, inicia a sinterização e a buzina não resolve mais.
+
+### 📊 Métricas Sonoras Necessárias
+
+| Parâmetro | Valor Recomendado | Justificativa |
+|---|---|---|
+| **Frequência** | **60 – 120 Hz** | Comprimento de onda longo (~2,8 m a 120 Hz) penetra nos 5 m de profundidade do canal sem atenuar. Acima de 250 Hz a energia dissipa antes de alcançar as regiões internas. |
+| **Nível de Pressão Sonora (SPL)** | **≥ 140 dB** (na saída da corneta) | Pó de cal fino (d50 < 10 mm) requer pressão acústica suficiente para superar a força de adesão inicial. Referência industrial: Sonic Soot Blowers em caldeiras operam 140–150 dB. |
+| **Duração do pulso** | **5–10 segundos** por ciclo | Suficiente para fluidizar sem impacto térmico acumulado na corneta. |
+| **Ciclo de acionamento** | **A cada 8–15 minutos** | Impede acúmulo antes da fase líquida do K₂O (~700°C). |
+| **Pressão de entrada de ar** | **3,5 – 6 bar** | Compatível com a rede de ar comprimido já existente (mesma pressão da lança atual: 3,5 bar). |
+| **Consumo de ar por pulso** | ~200–400 NL/pulso | A rede precisa ser verificada para suportar múltiplas buzinas simultâneas (36 portas no Forno 4). |
+
+### 🔒 Por que 60–120 Hz NÃO danifica o refratário
+
+A frequência baixa gera **vibração de pressão (ondas de pressão)**, não vibração mecânica direta nas paredes. O refratário do Maerz suporta dilatação térmica cíclica de até 1.100°C — a flutuação de pressão gerada por 140 dB a 80 Hz equivale a ~200 Pa (0,002 bar), insignificante frente às variações de ±50 mbar de operação normal do forno.
+
+> [!danger] Evitar
+> - **Ultrassom (>20 kHz):** Vibrações mecânicas diretas — risco real de dano ao refratário.
+> - **Frequências de ressonância estrutural** do revestimento — nunca operar próximo à frequência natural da estrutura.
+
+### 🔩 Especificação do Hardware da Buzina
+
+| Critério | Especificação |
+|---|---|
+| **Tipo de gerador** | Diafragma metálico acionado por ar comprimido (não piezoelétrico — temperatura inviabiliza piezo) |
+| **Categoria do produto** | *Sonic Soot Blower / Acoustic Cleaner* (referências: Martin Engineering BigBlaster, Primasonics, Pneumatic Scale Angelus) |
+| **Material da corneta** | **Inconel 625** ou aço refratário **310S** — suporta exposição contínua a >900°C |
+| **Diâmetro de acoplamento** | ≤ **280 mm** (margem de folga na poken in door de 300 mm) |
+| **Comprimento interno** | 150–200 mm (projeta o campo acústico sem tocar o refratário) |
+| **Vedação bocal/porta** | Anel de grafite expandido (resiste a 1100°C, veda contra retorno de gases) |
+| **Conexão de ar** | Tubo inox ½" com válvula solenóide 2/2 vias (ASCO G551A — já mapeada no BOM IoT) |
+
+---
+
+## 🏭 Automação e Limpeza Acústica - Fornos PFR
+
+*Status:* Dashboard IoT Funcional (Portas, acionamento manual e modos operacionais via UI).
+
+### 🛠️ Lista de Materiais — Sistema IoT
+
+| Componente | Modelo | Função |
+| :--- | :--- | :--- |
+| *MCU Principal* | ESP32-S3 | Conectividade Wi-Fi + Bluetooth, atualizações OTA |
+| *Sensor de Pressão* | Honeywell MPRLS | Monitorar linha de ar comprimido (0–6 bar) |
+| *Sensor de Temp.* | MAX31855 + Termopar Tipo K | Leitura da temperatura na carcaça do forno |
+| *Relay de Acionamento*| Relay SSR 40A | Ligar/desligar válvula solenoide da buzina |
+| *Válvula Solenoide* | 2/2 via ASCO G551A | Controlar fluxo de ar para a buzina sônica |
+| *Fonte Industrial* | Mean Well DR-60-24 | Alimentação em trilho DIN, 24V |
+| *Caixa Hermética* | IP66 em Policarbonato | Proteção ambiental na plataforma do forno |
+
+### 💻 Stack de Software IoT
+
+| Camada | Tecnologia |
+| :--- | :--- |
+| *Firmware ESP32* | ESP-IDF ou Arduino + MQTT |
+| *Broker* | MQTT (Mosquitto) ou HiveMQ Cloud |
+| *Backend* | Node-RED ou Python FastAPI |
+| *Dashboard* | Grafana + InfluxDB (Time-series) |
+| *Armazenamento* | InfluxDB (Para séries temporais) |
+| *Auth / Acesso Remoto*| HTTPS + token JWT |
+
+---
+
+## 🔩 Sugestões de Designs da Tampa Integrada com Buzina
+
+Propostas adaptadas para as portas de acesso (*poken in door*) de *∅300 mm*:
+
+### Tampa A — Flange Modular com Corneta Lateral
+* *Material:* Aço inox 310S (resistente a 1100°C).
+* *Fixação:* Rosca M8 para encaixe fixo no poken in door. A corneta sônica é acoplada lateralmente por flange de 4 parafusos, com vedação por anel de grafite expandido.
+* *Conexão:* Bocal de entrada de ar comprimido localizado na face externa.
+* *Peso estimado:* ~12 kg (redução de 8 kg em comparação com a tampa atual).
+
+### 🌟 Tampa B — Tampa Monobloco com Buzina Embutida (Recomendado)
+* *Material:* Peça única fundida em Inconel 625.
+* *Design:* Corneta já integrada ao corpo (sem juntas expostas ao calor). A linha de ar sobe pela lateral da carcaça do forno em tubo de aço inox ½", com conector rápido tipo Stäubli na face externa.
+* *Operação:* Abertura com manípulo de 1/4 de volta (elimina a necessidade de marreta).
+* *Peso estimado:* ~15 kg, mas ergonomicamente neutro na abertura.
+
+### Tampa C — Tampa com Abertura Pneumática
+* *Material:* Aço refratário com pistão pneumático integrado para abertura automática.
+* *Operação:* O operador aciona a abertura pelo painel IoT (sem toque físico na tampa). A buzina fica acoplada ao eixo da tampa.
+* *Aplicação:* Mais complexa, porém ideal para o *Forno 4* (36 portas, limpeza 2× por semana), onde a frequência de operação exige maior automação.
+
+---
+
+## ⚠️ Análise de Riscos: O Problema da Fadiga Acústica
+
+Embora as frequências de 60-120 Hz sejam seguras em operações pontuais, o uso de múltiplas buzinas operando simultaneamente ou em frequências incorretas gera um sério risco estrutural.
+
+Com **18 buzinas sonoras** operando **simultaneamente** a ~200 Hz e níveis de 120-160 dB cada, o sistema gera uma onda acústica de alta intensidade e baixa frequência. Diferente de vibrações mecânicas comuns, a energia acústica se propaga como **ondas de pressão** que excitam diretamente as estruturas, criando **cargas cíclicas repetidas** que podem levar a **fadiga acústica**.
 
 **Por que 200 Hz é crítico?**
+- É uma frequência típica de *sonic horns* (60-250 Hz), mas propaga-se longe e excita **modos de vibração de grandes estruturas** (painéis planos, tubulações longas, refratário suspenso).
+- Com 18 fontes simultâneas, a pressão sonora combinada pode ultrapassar **150-155 dB**, gerando forças que ressoam com as frequências naturais do forno.
 
-- Frequência na faixa de operação típica de sonic horns industriais (60-250 Hz).
-- Baixa frequência propaga longe e excita **modos de vibração de grandes estruturas** (painéis planos, tubulações longas, refratário suspenso).
-- Com 18 fontes simultâneas, o nível de pressão sonora combinado pode ultrapassar **150-155 dB**, gerando forças que ressoam com as frequências naturais do forno.
+### Mecanismo da Fadiga Acústica (*Acoustic Fatigue*)
+Ocorre quando ondas sonoras impõem cargas cíclicas alternadas na estrutura. Cada ciclo de pressão causa micro-deformações que geram microfissuras e podem levar à falha. Fases típicas:
+1. **Início (0-100 h):** Vibração elástica reversível.
+2. **Acumulação (100-1.000 h):** Microfissuras em soldas e interfaces refratário-aço.
+3. **Propagação (1.000+ h):** Rachaduras, afrouxamento de fixações, desprendimento de tijolos.
+4. **Falha:** Perda de integridade e paradas não programadas.
 
----
+### Efeitos nos Componentes do Forno Maerz PFR
+- **Refratário:** Vibração a 200 Hz pode causar *spalling* (desprendimento). Com 18 buzinas, há risco de reduzir a vida útil do revestimento em 20-50%.
+- **Estruturas Metálicas e Dutos:** Modos de vibração são excitados, levando a *fatigue cracking* em soldas e parafusos.
+- **Componentes Sensíveis:** Falha por vibração em sondas, válvulas e ancoragens do refratário.
 
-## 2. Mecanismo da Fadiga Acústica (Acoustic Fatigue)
+### Análise Quantitativa e Riscos Estimados
 
-**Definição:** Fadiga acústica ocorre quando ondas sonoras de alta intensidade impõem **cargas cíclicas alternadas** na estrutura. Cada ciclo de pressão (a 200 Hz = 200 ciclos por segundo) causa micro-deformações elásticas que, com o tempo, geram microfissuras, propagam-se e levam à falha catastrófica — **mesmo sem sobrecarga estática visível**.
-
-**Fases típicas (baseado em estudos de sonic horns em caldeiras):**
-
-1. **Início (0-100 h):** Vibração elástica reversível → aumento de ruído e sensação de “zumbido” na estrutura.
-2. **Acumulação (100-1.000 h):** Microfissuras em soldas, ancoragens e interfaces refratário-aço.
-3. **Propagação (1.000+ h):** Rachaduras visíveis, afrouxamento de fixações, desprendimento de tijolos refratários.
-4. **Falha:** Perda de integridade → vazamentos de gás, queda de refratário ou parada não programada do forno.
-
-**Referências técnicas:**
-
-- Em caldeiras, frequências <60 Hz são consideradas destrutivas para conexões mecânicas (IAC International).
-- A 75 Hz (faixa otimizada em estudos SASOL), o risco é controlado; acima ou abaixo pode ressoar com modos harmônicos da planta.
-- Estudos de simulação (AutoCAD Inventor + análise de tensão) mostram que deflexões >25 mm em tubos podem gerar tensões de 180-800 MPa — acima do limite de fadiga de muitos aços refratários.
-
----
-
-## 3. Efeitos Específicos nos Componentes do Forno Maerz PFR
-
-### 3.1 Refratário (principal preocupação)
-
-- Material frágil e sujeito a choque térmico + mecânico.
-- Vibração a 200 Hz pode causar **spalling** (desprendimento em camadas) ou microfissuras nas juntas.
-- No Maerz PFR, o refratário dos canais e do crossover channel é inspecionado periodicamente (Maerz recomenda inspeção sem parada para detectar danos precoces).
-- Risco ampliado com 18 buzinas: energia acústica concentrada nos 36-48 canais → possível redução da vida útil do revestimento em 20-50% (baseado em casos de vibração em fornos de cal).
-
-### 3.2 Estruturas Metálicas e Dutos
-
-- Painéis, suportes e tubulações de aço carbono/inox vibram mais em frequências baixas.
-- Modos de vibração de chapas planas são facilmente excitados a 200 Hz → **fatigue cracking** em soldas e parafusos.
-- Exemplo real: em caldeiras com sonic horns, vibração excessiva causou afrouxamento de fixações e rachaduras progressivas.
-
-### 3.3 Componentes Sensíveis
-
-- Sondas de temperatura/pressão, válvulas pneumáticas e ancoragens do refratário → falha por vibração.
-- Possível interferência no ciclo de inversão dos fornos (12-15 min).
-
----
-
-## 4. Análise Quantitativa e Riscos Estimados
-
-|Parâmetro|Valor com 18 buzinas simultâneas|Risco associado|Limite aceitável industrial|
+| Parâmetro | Valor com 18 buzinas simultâneas | Risco associado | Limite aceitável industrial |
 |---|---|---|---|
-|Nível de pressão sonora total|150-155 dB|Fadiga acelerada|<140 dB|
-|Frequência|200 Hz|Excitação de modos naturais|60-75 Hz (ótimo) ou >250 Hz|
-|Ciclos por hora (operação contínua)|~720.000 ciclos/h|Alta taxa de fadiga|<100.000 ciclos/h (recomendado)|
-|Deflexão estimada em tubos|10-26 mm (simulações SASOL)|Tensão >180 MPa → fadiga|<5 mm|
-|Vida útil estimada do refratário|Redução de 30-60%|Parada não programada|Sem redução|
+| **Nível de pressão sonora** | 150-155 dB | Fadiga acelerada | <140 dB |
+| **Frequência** | 200 Hz | Excitação de modos naturais | 60-75 Hz (ótimo) ou >250 Hz |
+| **Ciclos por hora** | ~720.000 ciclos/h | Alta taxa de fadiga | <100.000 ciclos/h |
+| **Deflexão em tubos** | 10-26 mm (SASOL) | Tensão >180 MPa → fadiga | <5 mm |
+| **Vida útil do refratário** | Redução de 30-60% | Parada não programada | Sem redução |
 
-**Observação:** Com operação simultânea, o risco de **ressonância** aumenta exponencialmente. Se a frequência natural de qualquer componente estiver próxima de 200 Hz (ou harmônicos), a amplitude pode multiplicar por 10x.
+### Evidências Reais de Casos Industriais
+- **Caldeiras SASOL:** O projeto otimizado usou 75 Hz e força controlada para evitar defeitos no refratário. Frequências fora da faixa de 60-75 Hz causaram dano estrutural.
+- **Fornos e baghouses:** Sucesso com manutenção frequente e monitoramento.
+- **NASA:** Painéis sofrem fadiga acústica em 200-2.000 Hz, mecanismo idêntico ao do refratário.
 
----
-
-## 5. Evidências Reais de Casos Industriais
-
-- **Caldeiras SASOL (África do Sul):** Estudos mostraram que frequências fora da faixa 60-75 Hz causam dano estrutural. O projeto otimizado usou 75 Hz e força controlada (220-300 N) para evitar defeitos no refratário.
-- **Fornos e baghouses:** Sonic horns bem-sucedidos, mas com manutenção frequente de diafragmas e monitoramento de vibração para evitar fatigue.
-- **Indústria de cal e cimento:** Nenhum caso público de 18 buzinas simultâneas em Maerz PFR, mas vibrações induzidas por equipamentos causam degradação acelerada de refratários (estudos de torres de pré-aquecimento).
-- **NASA e aeronáutica:** Painéis de carbono sofrem fadiga acústica em 200-2.000 Hz — mecanismo idêntico ao refratário.
-
----
-
-## 6. Recomendações de Mitigação para os Desenvolvedores
-
-1. **Operação não simultânea:** Ativar buzinas em sequência ou grupos de 3-4 (reduz SPL total em ~10-12 dB).
-2. **Afinação de frequência:** Testar 75-160 Hz (faixa mais segura) e evitar exatamente a frequência natural do forno (medir com acelerômetros).
-3. **Monitoramento:** Instalar sensores de vibração (acelerômetros triaxiais) + sistema de shutdown automático se amplitude > limite.
-4. **Amortecimento:** Adicionar dampers viscoelásticos ou isoladores de vibração nos suportes.
-5. **Simulação obrigatória:** Usar software como COMSOL Multiphysics ou ANSYS para mapear modos de vibração dos canais Maerz + pressão acústica de 18 buzinas.
-6. **Piloto em escala:** Testar 1-2 buzinas em um único canal com amostra de refratário real (1.100 °C) e medir tensão/fissuras.
-7. **Integração com Lhoist:** Apresentar plano de “vibration risk assessment” alinhado ao “Go for Zero” — incluir inspeção de refratário antes/depois.
+### Recomendações de Mitigação
+1. **Operação não simultânea:** Ativar buzinas em sequência ou grupos de 3-4 (reduz SPL em ~10-12 dB).
+2. **Afinação de frequência:** Testar 75-160 Hz (faixa mais segura) e evitar a frequência natural do forno.
+3. **Monitoramento:** Instalar sensores de vibração (acelerômetros) e sistema de *shutdown* automático.
+4. **Amortecimento:** Adicionar *dampers* viscoelásticos nos suportes.
+5. **Simulação obrigatória:** Usar COMSOL ou ANSYS para mapear vibração dos canais + pressão acústica de 18 buzinas.
+6. **Piloto em escala:** Testar 1-2 buzinas em um único canal com amostra de refratário real (1.100 °C).
 
 ---
 
-## 7. Conclusão e Impacto no Projeto
+## 🛠️ Desafios Técnicos a Mapear (Próximos Passos)
 
-A operação simultânea de 18 buzinas a 200 Hz transforma um sistema de limpeza em uma **fonte de fadiga acústica de alto risco**. Embora a ideia seja inovadora e alinhada com zero exposição humana, o risco de dano estrutural/refratário pode anular o ganho de segurança e gerar paradas caras — exatamente o oposto do objetivo Kaizen.
-
-**Recomendação final:** Priorizar operação sequencial + simulação acústica antes de qualquer protótipo. Isso pode tornar a proposta **viável e competitiva** frente à mangueira aérea.
-
-**Pronto para exportar como .md!** Caso precise de anexos (ex.: planilha de cálculo de tensão, modelo COMSOL simplificado ou comparação com a mangueira aérea), forneça mais detalhes do ZIP ou especificações técnicas.
-
-**Referências principais:** Estudos SASOL, IAC International, Maerz Ofenbau e publicações sobre acoustic fatigue em refratários industriais.
+- [ ] **Dimensionamento do Ar Comprimido:** Verificar se a rede de ar comprimido da unidade de Matozinhos suporta o consumo das buzinas.
+- [ ] **Material da Corneta:** A parte da buzina que entra em contato com a temperatura interna precisa ser fundida em ligas especiais (como Inconel ou aços refratários) para suportar os 1100°C contínuos.
+- [ ] **Poluição Sonora Ambiental:** Como as buzinas são barulhentas, será necessário calcular o impacto acústico externo e prever isolamento (abafadores).
+- [ ] **Replicabilidade:** Criar um design de flange universal que permita acoplar a buzina tanto nas 36 portas do Forno 4 quanto nas 48 portas do Forno 5.
+- [ ] **Apresentar plano à Lhoist:** Incluir "vibration risk assessment" alinhado ao "Go for Zero", com simulação acústica pré-protótipo.

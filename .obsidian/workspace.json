@@ -11,10 +11,14 @@
             "id": "a47d573763d1f857",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Docs/02_Ideação/Ideia Buzina Ultrassônica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ideia Buzina Ultrassônica"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docs/02_Ideação/Ideia Buzina Ultrassônica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos"
+              "title": "Links inversos para Ideia Buzina Ultrassônica"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docs/02_Ideação/Ideia Buzina Ultrassônica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída"
+              "title": "Links de saída para Ideia Buzina Ultrassônica"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Docs/02_Ideação/Ideia Buzina Ultrassônica.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de Ideia Buzina Ultrassônica"
             }
           },
           {
@@ -189,6 +196,9 @@
   },
   "active": "a47d573763d1f857",
   "lastOpenFiles": [
+    "Docs/02_Ideação/Ideia da mangueira área.md",
+    "Docs/06_Pesquisa_Empresa/02_LHOIST/02_TECNICO/01_forno_maerz_pfr.md",
+    "Docs/03_Solução/Proposta.md",
     "Docs/02_Ideação/Ideia Buzina Ultrassônica.md",
     "Docs/08_Imagens/plantas/vista_frontal.pdf",
     "Docs/08_Imagens/plantas/vista_superior.pdf",
@@ -196,8 +206,6 @@
     "Docs/08_Imagens/plantas/Não confirmado 970225.crdownload",
     "Docs/08_Imagens/plantas/1776290685916_Projeto_MK4__Visao_Superior.pdf",
     "Docs/08_Imagens/plantas/Não confirmado 788683.crdownload",
-    "Docs/08_Imagens/plantas",
-    "Docs/02_Ideação/Ideia da mangueira área.md",
-    "Docs/03_Solução/Proposta.md"
+    "Docs/08_Imagens/plantas"
   ]
 }
