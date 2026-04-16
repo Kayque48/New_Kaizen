@@ -268,6 +268,12 @@ Simulação desenvolvida em **Processing** com física de partículas real:
 **"Como replica para outros fornos?"**
 > O design de flange é padronizado para 300mm — dimensão padrão dos Poken In Doors Maerz. A mesma buzina serve Forno 4, Forno 5 e qualquer outro forno PFR da família Maerz no Brasil e no mundo.
 
+**"A buzina injeta ar no forno — isso não vai aumentar a pressão interna perigosamente?"**
+
+> Não. O SonicGuard opera **exclusivamente com o forno em funcionamento**, quando o soprador está ativo e há fluxo contínuo de gases pelo canal. O ar injetado em pulsos de 10 segundos é absorvido por esse fluxo e sai pelos dutos normais do forno — exatamente o mesmo caminho dos gases de processo. A pressão interna se mantém dentro do range normal de operação (≤ 350 mBar), muito abaixo do limiar da chapa de explosão (700 mBar). Como camada adicional, o sensor de pressão IoT faz shutdown automático se detectar qualquer anomalia.
+
+ 
+
 ---
 
 ## 👥 Escuderia NewKaizen
