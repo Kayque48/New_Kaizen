@@ -16,14 +16,33 @@ Buzinas sônicas emitem ondas de **75–160 Hz e 140–150 dB** geradas por ar c
 
 ### 🛡️ Tampa Integrada (SonicGuard)
 
-A buzina substitui a tampa original — **tampa nunca mais é removida em operação normal**. Materiais selecionados para 1.100°C contínuo:
+A buzina substitui a tampa original — **tampa nunca mais é removida em operação normal**. O conjunto é composto por três partes principais:
 
-| Componente | Material |
-|:---|:---|
-| Pavilhão / Horn | Aço Inox AISI 310S |
-| Diafragma | Inconel 625 |
-| Vedações | Grafite expandido |
-| Flange | Aço Inox AISI 316Ti |
+![[sonic guard v3.png]]
+
+**Pescoço de Inserção (Waveguide)**
+- Comprimento: **380mm**
+- Material: Aço Inox AISI 310S
+- Função: guia de onda — canaliza a energia sonora para dentro do canal sem expor a carcaça da buzina à chama direta
+
+**Corpo do Gerador de Som**
+- Diâmetro da base: **220mm**
+- Diafragma: Inconel 625 (resistência a fadiga térmica cíclica)
+
+**Flange de Instalação**
+
+![[tampa v5.png]]
+
+- Diâmetro: **300mm** (padrão Poken In Door Maerz)
+- Material: Aço Inox AISI 316Ti
+- Vedações em **grafite expandido** — único material viável acima de 500°C
+- Fixações em **Aço Inox A4-80**
+
+**Montagem no Poken In Door**
+
+![[animacao v3.png]]
+
+![[poken door v6.png]]
 
 ### ⚠️ Segurança de Pressão
 

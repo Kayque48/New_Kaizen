@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/02_Ideação/Ideia Ultrassom_Limpeza.md",
+                "file": "Docs/09_Lean_Canvas/SOLUÇÃO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ideia Ultrassom_Limpeza"
+              "title": "SOLUÇÃO"
             }
           }
         ],
@@ -211,6 +211,9 @@
   },
   "active": "e9a7f2fb08baf23e",
   "lastOpenFiles": [
+    "Docs/08_Imagens/prototipo.tar.gz",
+    "Docs/08_Imagens/fzd0rVgtdQBOC58M.prototipo.tar.gz",
+    "Docs/02_Ideação/Ideia Ultrassom_Limpeza.md",
     "Docs/09_Lean_Canvas/SOLUÇÃO.md",
     "Docs/03_Solução/Tampa.md",
     "Docs/03_Solução/Gestão de Pressão.md",
@@ -231,10 +234,8 @@
     "Proto/Forno/Visao_Lateral/Visao_Lateral.pde",
     "Proto/Dashboard/js/utils.js",
     "Proto/Dashboard/js/state.js",
-    "Proto/Dashboard/js/sensors.js",
     "Untitled.md",
     "Docs/02_Ideação/Ideia da mangueira área.md",
-    "Docs/02_Ideação/Ideia Ultrassom_Limpeza.md",
     "Docs/02_Ideação/Ideia Tampa Distribuidora Multi-Saída.md",
     "Docs/02_Ideação/Ideia Buzina Ultrassônica.md",
     "Docs/06_Pesquisa_Empresa/02_LHOIST/02_TECNICO/01_forno_maerz_pfr.md"
