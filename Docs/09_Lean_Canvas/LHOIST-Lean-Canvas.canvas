@@ -1,14 +1,14 @@
 {
 	"nodes":[
-		{"type":"file","file":"09_Lean_Canvas/PROBLEMA.md","id":"lhoist-problem","x":0,"y":0,"width":520,"height":940,"color":"1"},
-		{"type":"file","file":"09_Lean_Canvas/SOLUÇÃO.md","id":"lhoist-solution","x":540,"y":0,"width":520,"height":460,"color":"5"},
-		{"type":"file","file":"09_Lean_Canvas/MÉTRICAS-CHAVE.md","id":"lhoist-metrics","x":540,"y":480,"width":520,"height":460,"color":"4"},
-		{"type":"file","file":"09_Lean_Canvas/PROPOSTA ÚNICA DE VALOR.md","id":"lhoist-uvp","x":1080,"y":0,"width":520,"height":940,"color":"2"},
-		{"type":"file","file":"09_Lean_Canvas/VANTAGEM JUSTA.md","id":"lhoist-unfair","x":1620,"y":0,"width":520,"height":460,"color":"6"},
-		{"type":"file","file":"09_Lean_Canvas/CANAIS.md","id":"lhoist-channels","x":1620,"y":480,"width":520,"height":460,"color":"3"},
-		{"type":"file","file":"09_Lean_Canvas/SEGMENTOS DE USUÁRIOS.md","id":"lhoist-segments","x":2160,"y":0,"width":520,"height":940,"color":"#014dfe"},
-		{"type":"file","file":"09_Lean_Canvas/ESTRUTURA DE CUSTOS.md","id":"lhoist-costs","x":0,"y":960,"width":1340,"height":500,"color":"#ff00d0"},
-		{"type":"file","file":"09_Lean_Canvas/FONTES DE RECEITA.md","id":"lhoist-revenue","x":1360,"y":960,"width":1320,"height":500,"color":"4"}
+		{"type":"file","file":"Docs/09_Lean_Canvas/PROBLEMA.md","id":"lhoist-problem","x":0,"y":0,"width":520,"height":940,"color":"1"},
+		{"type":"file","file":"Docs/09_Lean_Canvas/SOLUÇÃO.md","id":"lhoist-solution","x":540,"y":0,"width":520,"height":460,"color":"5"},
+		{"type":"file","file":"Docs/09_Lean_Canvas/MÉTRICAS-CHAVE.md","id":"lhoist-metrics","x":540,"y":480,"width":520,"height":460,"color":"4"},
+		{"type":"file","file":"Docs/09_Lean_Canvas/PROPOSTA ÚNICA DE VALOR.md","id":"lhoist-uvp","x":1080,"y":0,"width":520,"height":940,"color":"2"},
+		{"type":"file","file":"Docs/09_Lean_Canvas/VANTAGEM JUSTA.md","id":"lhoist-unfair","x":1620,"y":0,"width":520,"height":460,"color":"6"},
+		{"type":"file","file":"Docs/09_Lean_Canvas/CANAIS.md","id":"lhoist-channels","x":1620,"y":480,"width":520,"height":460,"color":"3"},
+		{"type":"file","file":"Docs/09_Lean_Canvas/SEGMENTOS DE USUÁRIOS.md","id":"lhoist-segments","x":2160,"y":0,"width":520,"height":940,"color":"#014dfe"},
+		{"type":"file","file":"Docs/09_Lean_Canvas/FONTES DE RECEITA.md","id":"lhoist-revenue","x":1360,"y":960,"width":1320,"height":500,"color":"4"},
+		{"type":"file","file":"Docs/09_Lean_Canvas/ESTRUTURA DE CUSTOS.md","id":"lhoist-costs","x":0,"y":960,"width":1340,"height":500,"color":"#ff00d0"}
 	],
 	"edges":[]
 }

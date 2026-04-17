@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/09_Lean_Canvas/SOLUÇÃO.md",
+                "file": "Docs/09_Lean_Canvas/PROBLEMA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOLUÇÃO"
+              "title": "PROBLEMA"
             }
           }
         ],
@@ -211,10 +211,23 @@
   },
   "active": "e9a7f2fb08baf23e",
   "lastOpenFiles": [
+    "Docs/09_Lean_Canvas/PROPOSTA ÚNICA DE VALOR.md",
+    "Docs/09_Lean_Canvas/PROBLEMA.md",
+    "Docs/09_Lean_Canvas/MÉTRICAS-CHAVE.md",
+    "Docs/09_Lean_Canvas/LHOIST-SUMARIO-VISUAL.md",
+    "Docs/09_Lean_Canvas/FONTES DE RECEITA.md",
+    "Docs/09_Lean_Canvas/ESTRUTURA DE CUSTOS.md",
+    "Docs/09_Lean_Canvas/LHOIST-Lean-Canvas.canvas",
+    "Docs/09_Lean_Canvas/CANAIS.md",
+    "Docs/06_Pesquisa_Empresa/02_LHOIST/01_EMPRESA/01_perfil_corporativo.md",
+    "Docs/09_Lean_Canvas.tar.gz",
+    "Docs/L2k4lMYcYSSx0alq.09_Lean_Canvas.tar.gz",
+    "Docs/🏎️_INÍCIO_RÁPIDO.md",
+    "Docs/09_Lean_Canvas/VANTAGEM JUSTA.md",
+    "Docs/09_Lean_Canvas/SOLUÇÃO.md",
     "Docs/08_Imagens/prototipo.tar.gz",
     "Docs/08_Imagens/fzd0rVgtdQBOC58M.prototipo.tar.gz",
     "Docs/02_Ideação/Ideia Ultrassom_Limpeza.md",
-    "Docs/09_Lean_Canvas/SOLUÇÃO.md",
     "Docs/03_Solução/Tampa.md",
     "Docs/03_Solução/Gestão de Pressão.md",
     "Docs/03_Solução/Proposta.md",
@@ -231,9 +244,6 @@
     "Proto/tampa v2.f3d",
     "Proto/sonic guard.f3d",
     "Proto/Forno/Visao_Superior/Visao_Superior.pde",
-    "Proto/Forno/Visao_Lateral/Visao_Lateral.pde",
-    "Proto/Dashboard/js/utils.js",
-    "Proto/Dashboard/js/state.js",
     "Untitled.md",
     "Docs/02_Ideação/Ideia da mangueira área.md",
     "Docs/02_Ideação/Ideia Tampa Distribuidora Multi-Saída.md",
