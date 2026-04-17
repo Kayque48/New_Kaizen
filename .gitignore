@@ -1,2 +1,10 @@
 Docs/.obsidian
 Docs/.trash
+
+# Processing exports - binaries (keep only source/)
+Proto/**/linux-amd64/
+Proto/**/windows-amd64/
+!Proto/**/linux-amd64/source/
+!Proto/**/windows-amd64/source/
+!Proto/**/linux-amd64/source/**
+!Proto/**/windows-amd64/source/**
