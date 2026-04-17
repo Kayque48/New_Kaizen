@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SonicGuard IoT — Lhoist Matozinhos</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <div class="logo">LHOIST</div>
+    <div class="header-info">
+      <div class="header-title">SonicGuard IoT Dashboard</div>
+      <div class="header-sub">Forno Maerz PFR · Matozinhos, MG</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <span id="clock-display"></span>
+    <div class="pill">
+      <div class="dot"></div>
+      <span class="pill-text" id="status-text">ATIVO</span>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+
+  <!-- METRIC CARDS -->
+  <div class="metrics-row section-gap">
+    <div class="mcard" id="mc-cycles">
+      <div class="mcard-label">Ciclos hoje</div>
+      <div class="mcard-value" id="m-cycles">142</div>
+      <div class="mcard-unit">pulsos completados</div>
+      <span class="mcard-badge badge-ok" id="mb-cycles">normal</span>
+    </div>
+    <div class="mcard" id="mc-crust">
+      <div class="mcard-label">Incrustação estimada</div>
+      <div class="mcard-value" id="m-crust">4.2</div>
+      <div class="mcard-unit">% canal obstruído</div>
+      <span class="mcard-badge badge-ok" id="mb-crust">canal limpo</span>
+    </div>
+    <div class="mcard" id="mc-active">
+      <div class="mcard-label">Buzinas ativas</div>
+      <div class="mcard-value" id="m-active">0</div>
+      <div class="mcard-unit">de 84 instaladas</div>
+      <span class="mcard-badge badge-warn" id="mb-active">em espera</span>
+    </div>
+    <div class="mcard">
+      <div class="mcard-label">Limpeza manual</div>
+      <div class="mcard-value" style="color:var(--blue-600)">—</div>
+      <div class="mcard-unit">não necessária</div>
+      <span class="mcard-badge badge-ok">preventivo ativo</span>
+    </div>
+  </div>
+
+  <!-- HORN STATUS + PRESSURE -->
+  <div class="grid-2-1 section-gap">
+    <div class="card">
+      <div class="card-title">Status das buzinas — Forno 4 · 36 pokendors</div>
+      <div class="cuba-label">Cuba A · 18 pokendors</div>
+      <div class="horn-grid" id="horns-a"></div>
+      <div class="cuba-label">Cuba B · 18 pokendors</div>
+      <div class="horn-grid" id="horns-b"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Pressão do canal</div>
+      <div class="pressure-track">
+        <div class="pressure-fill" id="p-fill" style="height:50%"></div>
+        <div class="p-line" id="p-line-op" style="border-color:var(--blue-500);opacity:0.6">
+          <span class="p-line-label" style="color:var(--blue-600)">350</span>
+        </div>
+        <div class="p-line" style="bottom:100%;border-color:var(--red-700);opacity:0.7">
+          <span class="p-line-label" style="color:var(--red-700)">700</span>
+        </div>
+      </div>
+      <div class="pressure-readout">
+        <div>
+          <div class="p-main" id="p-val">351.0 mBar</div>
+          <div class="p-sub"  id="p-pct">0.3% da margem</div>
+        </div>
+        <div class="p-limits">
+          <div class="p-limit-line" style="color:var(--red-700)">limite 700</div>
+          <div class="p-limit-line">normal 350</div>
+          <div class="p-limit-line" style="margin-top:4px;color:var(--blue-600)" id="p-safe">✓ seguro</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SENSORS + ACTIVITY LOG -->
+  <div class="grid-1-1 section-gap">
+    <div class="card">
+      <div class="card-title">Sensores — leitura atual</div>
+      <table class="stbl">
+        <thead>
+          <tr>
+            <th>Sensor</th>
+            <th>Pokendor</th>
+            <th>Valor</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="sensor-tbody"></tbody>
+      </table>
+    </div>
+    <div class="card">
+      <div class="card-title">Log de atividade</div>
+      <div class="log-scroll" id="activity-log"></div>
+    </div>
+  </div>
+
+  <!-- SPARKLINES -->
+  <div class="grid-3 section-gap">
+    <div class="card">
+      <div class="spark-label">Temperatura flange</div>
+      <div class="spark-val" id="sv-temp">491 °C</div>
+      <div class="spark-wrap"><svg id="sc-temp" viewBox="0 0 200 55" preserveAspectRatio="none"></svg></div>
+    </div>
+    <div class="card">
+      <div class="spark-label">Pressão canal</div>
+      <div class="spark-val" id="sv-press">354 mBar</div>
+      <div class="spark-wrap"><svg id="sc-press" viewBox="0 0 200 55" preserveAspectRatio="none"></svg></div>
+    </div>
+    <div class="card">
+      <div class="spark-label">Vibração estrutural</div>
+      <div class="spark-val" id="sv-vib">0.18 g</div>
+      <div class="spark-wrap"><svg id="sc-vib" viewBox="0 0 200 55" preserveAspectRatio="none"></svg></div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="footer">
+  <span>ESP32 · MQTT · Node-RED · Grafana</span>
+  <span class="footer-center">SonicGuard v1.0 · NewKaizen · GP SENAI 2026</span>
+  <span>改善 — Kaizen</span>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
