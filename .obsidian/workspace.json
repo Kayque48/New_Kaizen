@@ -34,6 +34,20 @@
               "icon": "lucide-file",
               "title": "Tampa"
             }
+          },
+          {
+            "id": "e9a7f2fb08baf23e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/09_Lean_Canvas/PROBLEMA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PROBLEMA"
+            }
           }
         ],
         "currentTab": 1
@@ -209,6 +223,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< HEAD
   "active": "0995d605aed364e8",
   "lastOpenFiles": [
     "Docs/03_Solução/Proposta.md",
@@ -226,5 +241,47 @@
     "Docs/08_Imagens/plantas/1776290685916_Projeto_MK4__Visao_Superior.pdf",
     "Docs/08_Imagens/plantas/Não confirmado 788683.crdownload",
     "Docs/08_Imagens/plantas"
+=======
+  "active": "e9a7f2fb08baf23e",
+  "lastOpenFiles": [
+    "Docs/09_Lean_Canvas/PROPOSTA ÚNICA DE VALOR.md",
+    "Docs/09_Lean_Canvas/PROBLEMA.md",
+    "Docs/09_Lean_Canvas/MÉTRICAS-CHAVE.md",
+    "Docs/09_Lean_Canvas/LHOIST-SUMARIO-VISUAL.md",
+    "Docs/09_Lean_Canvas/FONTES DE RECEITA.md",
+    "Docs/09_Lean_Canvas/ESTRUTURA DE CUSTOS.md",
+    "Docs/09_Lean_Canvas/LHOIST-Lean-Canvas.canvas",
+    "Docs/09_Lean_Canvas/CANAIS.md",
+    "Docs/06_Pesquisa_Empresa/02_LHOIST/01_EMPRESA/01_perfil_corporativo.md",
+    "Docs/09_Lean_Canvas.tar.gz",
+    "Docs/L2k4lMYcYSSx0alq.09_Lean_Canvas.tar.gz",
+    "Docs/🏎️_INÍCIO_RÁPIDO.md",
+    "Docs/09_Lean_Canvas/VANTAGEM JUSTA.md",
+    "Docs/09_Lean_Canvas/SOLUÇÃO.md",
+    "Docs/08_Imagens/prototipo.tar.gz",
+    "Docs/08_Imagens/fzd0rVgtdQBOC58M.prototipo.tar.gz",
+    "Docs/02_Ideação/Ideia Ultrassom_Limpeza.md",
+    "Docs/03_Solução/Tampa.md",
+    "Docs/03_Solução/Gestão de Pressão.md",
+    "Docs/03_Solução/Proposta.md",
+    "animacao-v1.mp4",
+    "Docs/08_Imagens/prototipo/visao_lateral_v1.png",
+    "Docs/08_Imagens/prototipo/sonic guard v3.png",
+    "Docs/08_Imagens/prototipo/tampa v5.png",
+    "Docs/08_Imagens/prototipo/poken door v6.png",
+    "Docs/08_Imagens/prototipo/animacao v3-junta.png",
+    "Docs/08_Imagens/prototipo/animacao v3.png",
+    "Docs/08_Imagens/prototipo/visao_superior_v1.png",
+    "Proto/poken door.f3d",
+    "Proto/animacao.f3z",
+    "Proto/tampa v2.f3d",
+    "Proto/sonic guard.f3d",
+    "Proto/Forno/Visao_Superior/Visao_Superior.pde",
+    "Untitled.md",
+    "Docs/02_Ideação/Ideia da mangueira área.md",
+    "Docs/02_Ideação/Ideia Tampa Distribuidora Multi-Saída.md",
+    "Docs/02_Ideação/Ideia Buzina Ultrassônica.md",
+    "Docs/06_Pesquisa_Empresa/02_LHOIST/02_TECNICO/01_forno_maerz_pfr.md"
+>>>>>>> a2b52cd4c24262760f52b4d03fc7dd7682d7f12c
   ]
 }

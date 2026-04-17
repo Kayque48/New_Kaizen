@@ -89,15 +89,15 @@ A frequência baixa gera **vibração de pressão (ondas de pressão)**, não vi
 
 ### 🛠️ Lista de Materiais — Sistema IoT
 
-| Componente | Modelo | Função |
-| :--- | :--- | :--- |
-| *MCU Principal* | ESP32-S3 | Conectividade Wi-Fi + Bluetooth, atualizações OTA |
-| *Sensor de Pressão* | Honeywell MPRLS | Monitorar linha de ar comprimido (0–6 bar) |
-| *Sensor de Temp.* | MAX31855 + Termopar Tipo K | Leitura da temperatura na carcaça do forno |
-| *Relay de Acionamento*| Relay SSR 40A | Ligar/desligar válvula solenoide da buzina |
-| *Válvula Solenoide* | 2/2 via ASCO G551A | Controlar fluxo de ar para a buzina sônica |
-| *Fonte Industrial* | Mean Well DR-60-24 | Alimentação em trilho DIN, 24V |
-| *Caixa Hermética* | IP66 em Policarbonato | Proteção ambiental na plataforma do forno |
+| Componente             | Modelo                     | Função                                            |
+| :--------------------- | :------------------------- | :------------------------------------------------ |
+| *MCU Principal*        | ESP32-S3                   | Conectividade Wi-Fi + Bluetooth, atualizações OTA |
+| *Sensor de Pressão*    | Honeywell MPRLS            | Monitorar linha de ar comprimido (0–6 bar)        |
+| *Sensor de Temp.*      | MAX31855 + Termopar Tipo K | Leitura da temperatura na carcaça do forno        |
+| *Relay de Acionamento* | Relay SSR 40A              | Ligar/desligar válvula solenoide da buzina        |
+| *Válvula Solenoide*    | 2/2 via ASCO G551A         | Controlar fluxo de ar para a buzina sônica        |
+| *Fonte Industrial*     | Mean Well DR-60-24         | Alimentação em trilho DIN, 24V                    |
+| *Caixa Hermética*      | IP66 em Policarbonato      | Proteção ambiental na plataforma do forno         |
 
 ### 💻 Stack de Software IoT
 

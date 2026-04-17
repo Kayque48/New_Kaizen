@@ -33,5 +33,5 @@
 - [x] Ler o desafio completo
 - [x] Pesquisar sobre a empresa
 - [x] Brainstorm inicial
-- [ ] Definir conceito principal
-- [ ] Começar prototipagem
+- [x] Definir conceito principal
+- [x] Começar prototipagem
