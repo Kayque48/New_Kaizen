@@ -142,7 +142,7 @@ A buzina é instalada **no lugar da tampa original** — integrada a uma tampa m
 |:---|:---|:---|:---|
 | Forno 4 | 36 (18 por cuba) | 2x / semana | Automático — contínuo |
 | Forno 5 | 48 (24 por cuba) | A cada 15 dias | Automático — contínuo |
-| **Total** | **84** | — | **84 buzinas** |
+| **Total** | **84** | — | **28 buzinas (3 por cuba)** |
 
 ---
 
