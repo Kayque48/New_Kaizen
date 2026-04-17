@@ -25,14 +25,14 @@
             "id": "e9a7f2fb08baf23e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Docs/03_Solução/Tampa.md",
-                "mode": "source",
-                "source": false
+                "aFile": "protoProcessing/Visao_Superior/Visao_Superior.pde",
+                "bFile": "protoProcessing/Visao_Superior/Visao_Superior.pde",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Tampa"
+              "icon": "diff",
+              "title": "Diff: Visao_Superior.pde  (Working Tree)"
             }
           }
         ],
@@ -209,8 +209,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9b57c45ba975f3e0",
+  "active": "e9a7f2fb08baf23e",
   "lastOpenFiles": [
+    "Docs/08_Imagens/prototipo/visao_lateral_v1.png",
+    "Docs/08_Imagens/prototipo/sonic guard v3.png",
+    "Docs/08_Imagens/prototipo/tampa v5.png",
+    "Docs/08_Imagens/prototipo/poken door v6.png",
+    "Docs/08_Imagens/prototipo/animacao v3-junta.png",
+    "Docs/08_Imagens/prototipo/animacao v3.png",
+    "Docs/08_Imagens/prototipo/visao_superior_v1.png",
+    "Proto/poken door.f3d",
+    "Proto/animacao.f3z",
+    "Proto/tampa v2.f3d",
+    "Docs/03_Solução/Tampa.md",
+    "Proto/sonic guard.f3d",
+    "Proto/Forno/Visao_Superior/Visao_Superior.pde",
+    "Proto/Forno/Visao_Lateral/Visao_Lateral.pde",
+    "Proto/Dashboard/js/utils.js",
+    "Proto/Dashboard/js/state.js",
+    "Proto/Dashboard/js/sensors.js",
+    "Proto/Dashboard/js/pressure.js",
     "Untitled.md",
     "Docs/03_Solução/Gestão de Pressão.md",
     "Docs/03_Solução/Proposta.md",
@@ -218,14 +236,6 @@
     "Docs/02_Ideação/Ideia Ultrassom_Limpeza.md",
     "Docs/02_Ideação/Ideia Tampa Distribuidora Multi-Saída.md",
     "Docs/02_Ideação/Ideia Buzina Ultrassônica.md",
-    "Docs/03_Solução/Tampa.md",
-    "Docs/06_Pesquisa_Empresa/02_LHOIST/02_TECNICO/01_forno_maerz_pfr.md",
-    "Docs/08_Imagens/plantas/vista_frontal.pdf",
-    "Docs/08_Imagens/plantas/vista_superior.pdf",
-    "Docs/08_Imagens/plantas/1776296573503_Projeto_MK4___Visao_Frontal.pdf",
-    "Docs/08_Imagens/plantas/Não confirmado 970225.crdownload",
-    "Docs/08_Imagens/plantas/1776290685916_Projeto_MK4__Visao_Superior.pdf",
-    "Docs/08_Imagens/plantas/Não confirmado 788683.crdownload",
-    "Docs/08_Imagens/plantas"
+    "Docs/06_Pesquisa_Empresa/02_LHOIST/02_TECNICO/01_forno_maerz_pfr.md"
   ]
 }
