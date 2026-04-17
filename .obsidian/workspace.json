@@ -25,14 +25,14 @@
             "id": "e9a7f2fb08baf23e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "protoProcessing/Visao_Superior/Visao_Superior.pde",
-                "bFile": "protoProcessing/Visao_Superior/Visao_Superior.pde",
-                "aRef": ""
+                "file": "Docs/02_Ideação/Ideia Ultrassom_Limpeza.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Visao_Superior.pde  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Ideia Ultrassom_Limpeza"
             }
           }
         ],
@@ -59,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -199,18 +199,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9b57c45ba975f3e0",
+  "active": "e9a7f2fb08baf23e",
   "lastOpenFiles": [
+    "Docs/09_Lean_Canvas/SOLUÇÃO.md",
+    "Docs/03_Solução/Tampa.md",
+    "Docs/03_Solução/Gestão de Pressão.md",
+    "Docs/03_Solução/Proposta.md",
     "animacao-v1.mp4",
     "Docs/08_Imagens/prototipo/visao_lateral_v1.png",
     "Docs/08_Imagens/prototipo/sonic guard v3.png",
@@ -222,17 +226,13 @@
     "Proto/poken door.f3d",
     "Proto/animacao.f3z",
     "Proto/tampa v2.f3d",
-    "Docs/03_Solução/Tampa.md",
     "Proto/sonic guard.f3d",
     "Proto/Forno/Visao_Superior/Visao_Superior.pde",
     "Proto/Forno/Visao_Lateral/Visao_Lateral.pde",
     "Proto/Dashboard/js/utils.js",
     "Proto/Dashboard/js/state.js",
     "Proto/Dashboard/js/sensors.js",
-    "Proto/Dashboard/js/pressure.js",
     "Untitled.md",
-    "Docs/03_Solução/Gestão de Pressão.md",
-    "Docs/03_Solução/Proposta.md",
     "Docs/02_Ideação/Ideia da mangueira área.md",
     "Docs/02_Ideação/Ideia Ultrassom_Limpeza.md",
     "Docs/02_Ideação/Ideia Tampa Distribuidora Multi-Saída.md",
