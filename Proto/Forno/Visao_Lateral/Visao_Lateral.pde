@@ -261,8 +261,8 @@ void stopBuzzSound() { if(audioOn) { audioOn=false; gainMaster.setValue(-60); } 
 // ─── UI ──────────────────────────────────────────────────
 void initUI() {
   cp5=new ControlP5(this);
-  int panelY=simH(), sw=210, sh2=16, mg=28;
-  int sp=(width-mg*2-sw*4)/3;
+  int panelY=simH(), sw=210, sh2=16, mg=28, rMg=74;
+  int sp=(width-mg-rMg-sw*4)/3;
   int[] cols={mg,mg+sw+sp,mg+(sw+sp)*2,mg+(sw+sp)*3};
   int sliderY=panelY+105;
   cp5.addSlider("sliderParticleRate").setPosition(cols[0],sliderY).setSize(sw,sh2).setRange(3,30).setValue(9).setLabel("").setColorForeground(color(100)).setColorActive(color(60)).setColorBackground(color(200));
@@ -450,6 +450,7 @@ void draw() {
   drawParts();
   drawHorns();
   drawTopBar();
+  drawLegend();
   drawPanel();
 }
 
@@ -683,7 +684,7 @@ void drawTopBar() {
 
   if (running) {
     String tt;
-    if (phase.equals("gap")) { int ml=max(0,round((gapFrames()-phaseFrame)/(float)gapFrames()*3)); tt="próxima: ~"+ml+" min (simulado)"; }
+    if (phase.equals("gap")) { int ml=max(0,round((gapFrames()-phaseFrame)/(float)gapFrames()*2)); tt="próxima: ~"+ml+" min (simulado)"; }
     else { int sl=max(0,round((buzzFrames()-phaseFrame)/(float)FPS_SIM)); tt="buzina "+str(activeHorn+1)+": "+sl+"s"; }
     fill(80); textSize(11); textAlign(RIGHT,CENTER); text(tt,width-12,by+bh/2);
   }
@@ -712,19 +713,11 @@ void drawPanel() {
 
   drawPressureGauge(width - 58, simH() + 8, 50, PANEL_H - 16);
 
-  // Legenda — linha horizontal abaixo dos sliders (slider+valores terminam em py2+121)
-  int lly = py2 + 140;
-  drawLegendDot(14,  lly, color(185,155,105), "Pó de cal");
-  drawLegendDot(214, lly, color(220,200,140), "Zona ativa");
-  drawLegendDot(414, lly, color(170,120,70),  "Caindo");
-  drawLegendDot(614, lly, color(100,60,20),   "Incrustação");
-  drawLegendDot(814, lly, color(160,200,255), "Onda acústica");
-
-  int sw=210,mg=28,sp=(width-mg*2-sw*4)/3;
+  int sw=210,mg=28,rMg=74,sp=(width-mg-rMg-sw*4)/3;
   int[] cols={mg,mg+sw+sp,mg+(sw+sp)*2,mg+(sw+sp)*3};
   int labelY=py2+78,sliderY=py2+105;
   String[] names={"Taxa de poeira","Intervalo entre buzinas","Duração da buzina","Raio de influência"};
-  String[] descs={"frames/spawn — menor = mais pó","segundos reais (~3 min simulados)","segundos que a buzina fica ligada","fração do canal coberta pelo som"};
+  String[] descs={"frames/spawn — menor = mais pó","segundos reais (~2 min simulados)","segundos que a buzina fica ligada","fração do canal coberta pelo som"};
   String[] vals={nf(sliderParticleRate,0,1)+" fr",nf(sliderGapTime,0,1)+" s",nf(sliderBuzzTime,0,1)+" s",nf(sliderHornRange*100,0,0)+"%"};
   for (int i=0;i<4;i++) {
     fill(40); textSize(12); textAlign(LEFT,BOTTOM); text(names[i],cols[i],labelY);
@@ -738,9 +731,23 @@ void drawStatBox(float x,float y,float w,String label,String val) {
   fill(90); noStroke(); textSize(10); textAlign(LEFT,TOP); text(label,x+7,y+4);
   fill(20); textSize(14); textAlign(LEFT,BOTTOM); text(val,x+7,y+30);
 }
+void drawLegend() {
+  int lh = 109;
+  int lw = 128;
+  int lx = width - lw - 12;
+  int ly = simH() - lh - 10;
+  fill(30, 30, 30, 160); noStroke();
+  rect(lx, ly, lw, lh, 5);
+  drawLegendDot(lx+8, ly+12,    color(185,155,105), "Pó de cal");
+  drawLegendDot(lx+8, ly+30,    color(220,200,140), "Zona ativa");
+  drawLegendDot(lx+8, ly+48,    color(170,120,70),  "Caindo");
+  drawLegendDot(lx+8, ly+66,    color(100,60,20),   "Incrustação");
+  drawLegendDot(lx+8, ly+86,    color(160,200,255), "Onda acústica");
+}
+
 void drawLegendDot(float x,float y,color c,String label) {
   fill(c); noStroke(); ellipse(x+5,y,10,10);
-  fill(60); textSize(11); textAlign(LEFT,CENTER); text(label,x+16,y);
+  fill(230); textSize(11); textAlign(LEFT,CENTER); text(label,x+16,y);
 }
 String canalStatus() { if (crustPct<5) return "Limpo"; if (crustPct<50) return "Acumulando"; return "Obstruído!"; }
 int countAlive() { int n=0; for (int i=0;i<partCount;i++) if (pAlive[i]&&!pFalling[i]) n++; return n; }

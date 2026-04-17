@@ -2,6 +2,18 @@
 export const HORN_N = 18;
 
 /**
+ * Returns a Set of local pokendor indices (0–HORN_N-1) that have buzinas
+ * installed for the given buzinas-per-pokendor configuration.
+ */
+export function installedPokes(buzPerPoke) {
+  const count = Math.ceil(HORN_N / buzPerPoke);
+  const step  = HORN_N / count;
+  const set   = new Set();
+  for (let i = 0; i < count; i++) set.add(Math.floor(i * step));
+  return set;
+}
+
+/**
  * Triangular firing sequences — 4 rotation steps.
  * Each row defines [cubaA indexes..., cubaB indexes...] that fire together.
  */

@@ -34,7 +34,7 @@ function sparkline(id, data, stroke, fill, minY, maxY) {
 
 /** Redraws all three sparkline charts from current state history arrays. */
 export function renderCharts() {
-  sparkline('sc-temp',  state.tempHist,  '#2d7a45', '#3d9455', 465, 515);
-  sparkline('sc-press', state.pressHist, '#185fa5', '#378add', 348, 395);
-  sparkline('sc-vib',   state.vibHist,   '#854f0b', '#ba7517', 0.05, 0.32);
+  sparkline('sc-temp', state.tempHist, '#2d7a45', '#3d9455', 465, 515);
+  sparkline('sc-db',   state.dbHist,   '#185fa5', '#378add', 75,  140);
+  sparkline('sc-vib',  state.vibHist,  '#854f0b', '#ba7517', 0.05, 0.32);
 }

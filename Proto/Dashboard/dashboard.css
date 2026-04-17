@@ -173,7 +173,63 @@ body {
 }
 .horn-ok     { background: var(--blue-100); color: var(--blue-700); border-color: var(--blue-200); }
 .horn-active { background: var(--blue-800); color: white; border-color: var(--blue-500); box-shadow: 0 0 0 2px var(--blue-100); }
-.horn-fault  { background: var(--red-100);   color: var(--red-700);   border-color: #f7c1c1; }
+.horn-fault  { background: var(--red-100);  color: var(--red-700);  border-color: #f7c1c1; }
+.horn-off    { background: var(--gray-50);  color: var(--gray-300); border-color: var(--gray-100); }
+
+/* ── SIM SLIDER ── */
+.sim-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 0.5px solid var(--gray-100);
+}
+.sim-label {
+  font-size: 9px;
+  font-family: var(--mono);
+  color: var(--gray-300);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+.sim-track-wrap { flex: 1; display: flex; flex-direction: column; gap: 3px; }
+.sim-slider {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--gray-100);
+  outline: none;
+  cursor: pointer;
+}
+.sim-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--blue-600);
+  cursor: pointer;
+  border: 2px solid var(--surface);
+  box-shadow: 0 0 0 1px var(--blue-200);
+}
+.sim-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--blue-600);
+  cursor: pointer;
+  border: 2px solid var(--surface);
+  box-shadow: 0 0 0 1px var(--blue-200);
+}
+.sim-ticks { display: flex; justify-content: space-between; padding: 0 5px; }
+.sim-ticks span { font-size: 8px; font-family: var(--mono); color: var(--gray-300); }
+.sim-val { font-size: 11px; font-family: var(--mono); color: var(--blue-800); min-width: 80px; text-align: right; white-space: nowrap; }
+
+/* ── MBAR CHART ── */
+.mbar-chart-wrap { height: 90px; margin-bottom: 8px; }
+.mbar-chart-wrap svg { width: 100%; height: 100%; }
 
 /* ── PRESSURE ── */
 .pressure-track {

@@ -39,13 +39,16 @@ export function mainLoop() {
     addLog('Intervalo — aguardando próximo pulso (20 s)', '');
   }
 
-  // Temperature & vibration: update every 30 s
-  if (state.tick % 60 === 0) {
+  // Temperature: update every 5 s (10 ticks) — slow thermal inertia
+  if (state.tick % 10 === 0) {
     const tv = Math.round(rnd(491, 10));
     state.tempHist.push(tv);
     if (state.tempHist.length > 20) state.tempHist.shift();
     document.getElementById('sv-temp').textContent = tv + ' °C';
+  }
 
+  // Vibration: update every 1 s (2 ticks) — fast mechanical response
+  if (state.tick % 2 === 0) {
     const vv = rnd(state.buzzing ? 0.20 : 0.13, 0.05);
     state.vibHist.push(parseFloat(vv.toFixed(2)));
     if (state.vibHist.length > 20) state.vibHist.shift();

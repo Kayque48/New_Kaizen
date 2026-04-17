@@ -64,17 +64,19 @@
       <div class="horn-grid" id="horns-a"></div>
       <div class="cuba-label">Cuba B · 18 pokendors</div>
       <div class="horn-grid" id="horns-b"></div>
+      <div class="sim-row">
+        <span class="sim-label">Buzinas / poke</span>
+        <div class="sim-track-wrap">
+          <input type="range" class="sim-slider" id="buz-per-poke" min="1" max="4" step="1" value="1">
+          <div class="sim-ticks"><span>1</span><span>2</span><span>3</span><span>4</span></div>
+        </div>
+        <span class="sim-val" id="buz-per-poke-val">1 buz · 18/cuba</span>
+      </div>
     </div>
     <div class="card">
-      <div class="card-title">Pressão do canal</div>
-      <div class="pressure-track">
-        <div class="pressure-fill" id="p-fill" style="height:50%"></div>
-        <div class="p-line" id="p-line-op" style="border-color:var(--blue-500);opacity:0.6">
-          <span class="p-line-label" style="color:var(--blue-600)">350</span>
-        </div>
-        <div class="p-line" style="bottom:100%;border-color:var(--red-700);opacity:0.7">
-          <span class="p-line-label" style="color:var(--red-700)">700</span>
-        </div>
+      <div class="card-title">Pressão do canal — histórico</div>
+      <div class="mbar-chart-wrap">
+        <svg id="mbar-chart" viewBox="0 0 300 90" preserveAspectRatio="none"></svg>
       </div>
       <div class="pressure-readout">
         <div>
@@ -120,9 +122,9 @@
       <div class="spark-wrap"><svg id="sc-temp" viewBox="0 0 200 55" preserveAspectRatio="none"></svg></div>
     </div>
     <div class="card">
-      <div class="spark-label">Pressão canal</div>
-      <div class="spark-val" id="sv-press">354 mBar</div>
-      <div class="spark-wrap"><svg id="sc-press" viewBox="0 0 200 55" preserveAspectRatio="none"></svg></div>
+      <div class="spark-label">Nível sonoro</div>
+      <div class="spark-val" id="sv-db">88 dB</div>
+      <div class="spark-wrap"><svg id="sc-db" viewBox="0 0 200 55" preserveAspectRatio="none"></svg></div>
     </div>
     <div class="card">
       <div class="spark-label">Vibração estrutural</div>

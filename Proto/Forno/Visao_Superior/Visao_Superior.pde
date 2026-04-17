@@ -157,7 +157,7 @@ float calcTargetP() {
 
 // ─── SETUP ───────────────────────────────────────────────
 void setup() {
-  size(900, 620);
+  size(1280, 800);
   frameRate(FPS_SIM);
   smooth(4);
   initArrays();
@@ -223,10 +223,10 @@ void initAudio() {
 
 void startBuzzSound() {
   audioOn = true;
-  osc1.setAmplitude(0.6);
-  osc2.setAmplitude(0.25);
-  osc3.setAmplitude(0.15);
-  osc4.setAmplitude(0.20);
+  osc1.setAmplitude(0.10);
+  osc2.setAmplitude(0.04);
+  osc3.setAmplitude(0.03);
+  osc4.setAmplitude(0.03);
 }
 void stopBuzzSound() {
   audioOn = false;
@@ -240,7 +240,7 @@ void stopBuzzSound() {
 void initUI() {
   cp5 = new ControlP5(this);
   int panelY = simH();
-  int sw = 200, sh2 = 16, mg = 28;
+  int sw = 400, sh2 = 16, mg = 28;
   int[] cols = { mg, mg + sw + 80 };
   int sliderY1 = panelY + 88;
   int sliderY2 = panelY + 135;
@@ -344,6 +344,7 @@ void draw() {
   drawPokendors();
   drawTopBar();
   drawPanel();
+  drawLegend();
 }
 
 // ─── FORMA DO FORNO ──────────────────────────────────────
@@ -523,27 +524,20 @@ void drawPanel() {
   // Stats
   int sx = 14, sy = py2 + 28;
   int ph = (running && phase.equals("buzz")) ? primaryHorn() : 0;
-  drawStatBox(sx,      sy, 160, "Fase",
+  drawStatBox(sx,       sy, 225, "Fase",
     running ? (phase.equals("buzz") ? "Buzina " + str(ph+1) + " ativa" : "Intervalo") : "Parado");
-  drawStatBox(sx + 175, sy, 140, "Cuba ativa",
+  drawStatBox(sx + 242, sy, 225, "Cuba ativa",
     running && phase.equals("buzz") ? (pokeRing[ph] == 0 ? "A" : "B") : "—");
-  drawStatBox(sx + 325, sy, 140, "Pokendors", str(N_POKES_TOTAL));
-  drawStatBox(sx + 475, sy, 140, "Tipo",
+  drawStatBox(sx + 484, sy, 225, "Pokendors", str(N_POKES_TOTAL));
+  drawStatBox(sx + 726, sy, 225, "Tipo",
     running && phase.equals("buzz") ? (pokeJunction[ph] ? "Junção" : "Anel") : "—");
   float pctMargem = constrain((gaugeCurrentP - P_OP_GAUGE) / (P_CHAPA_GAUGE - P_OP_GAUGE) * 100, 0, 100);
-  drawStatBox(sx + 625, sy, 140, "Δ Pressão", nf(gaugeCurrentP - P_OP_GAUGE, 0, 1) + " mBar (" + nf(pctMargem,0,1) + "%)");
+  drawStatBox(sx + 968, sy, 225, "Δ Pressão", nf(gaugeCurrentP - P_OP_GAUGE, 0, 1) + " mBar (" + nf(pctMargem,0,1) + "%)");
 
   drawPressureGauge(width - 58, simH() + 8, 50, PANEL_H - 16);
 
-  // Legenda — à direita das duas colunas de sliders (cols terminam em x≈516)
-  int lx = 558, ly = py2 + 76;
-  drawLegendDot(lx, ly,      color(255, 204, 0),   "Buzina ativa");
-  drawLegendDot(lx, ly + 22, color(130, 200, 255), "Com buzina");
-  drawLegendDot(lx, ly + 44, color(230, 230, 230), "Sem buzina");
-  drawLegendDot(lx, ly + 66, color(96, 160, 224),  "Onda acústica");
-
   // Sliders — linha 1
-  int[] cols = { 28, 308 };
+  int[] cols = { 28, 508 };
   int labelY1 = py2 + 72;
   String[] names1 = { "Intervalo entre buzinas", "Duração da buzina" };
   String[] descs1 = { "segundos de espera entre pulsos", "segundos que a buzina fica ligada" };
@@ -551,7 +545,7 @@ void drawPanel() {
   for (int i = 0; i < 2; i++) {
     fill(40); textSize(12); textAlign(LEFT, BOTTOM); text(names1[i], cols[i], labelY1);
     fill(100); textSize(10); textAlign(LEFT, TOP);   text(descs1[i], cols[i], labelY1 + 2);
-    fill(40); textSize(11); textAlign(LEFT, CENTER); text(vals1[i], cols[i] + 208, py2 + 88 + 8);
+    fill(40); textSize(11); textAlign(LEFT, CENTER); text(vals1[i], cols[i] + 408, py2 + 88 + 8);
   }
 
   // Sliders — linha 2
@@ -565,7 +559,7 @@ void drawPanel() {
   for (int i = 0; i < 2; i++) {
     fill(40); textSize(12); textAlign(LEFT, BOTTOM); text(names2[i], cols[i], labelY2);
     fill(100); textSize(10); textAlign(LEFT, TOP);   text(descs2[i], cols[i], labelY2 + 2);
-    fill(40); textSize(11); textAlign(LEFT, CENTER); text(vals2[i], cols[i] + 208, py2 + 135 + 8);
+    fill(40); textSize(11); textAlign(LEFT, CENTER); text(vals2[i], cols[i] + 408, py2 + 135 + 8);
   }
 }
 
@@ -573,6 +567,15 @@ void drawStatBox(float x, float y, float w, String label, String val) {
   fill(192); stroke(170); strokeWeight(0.5); rect(x, y, w, 32, 5);
   fill(90); noStroke(); textSize(10); textAlign(LEFT, TOP); text(label, x + 7, y + 4);
   fill(20); textSize(14); textAlign(LEFT, BOTTOM); text(val, x + 7, y + 30);
+}
+
+void drawLegend() {
+  int lx = width - 150;
+  int ly = simH() - 108;
+  drawLegendDot(lx, ly,      color(255, 204, 0),   "Buzina ativa");
+  drawLegendDot(lx, ly + 22, color(130, 200, 255), "Com buzina");
+  drawLegendDot(lx, ly + 44, color(230, 230, 230), "Sem buzina");
+  drawLegendDot(lx, ly + 66, color(96, 160, 224),  "Onda acústica");
 }
 
 void drawLegendDot(float x, float y, color c, String label) {
